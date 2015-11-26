@@ -1,0 +1,168 @@
+.question {
+	background: #FFECB3;
+	height: 18%;
+	color: #000;
+}
+
+.question_2 {
+	background: #FFECB3;
+	color: #000;
+	height: 9%;
+	text-align: center;
+}
+.rated1 {	
+	background: #B71C1C;
+}
+
+.rated2 {
+	background: #880E4F;
+}
+
+.rated3 {
+	background: #4A148C;
+}
+
+.rated4 {
+	background: #004D40;
+}
+
+.rated5 {
+	background: #1B5E20;
+}
+
+.star5:nth-child(odd) {
+	background: #1B5E20;
+}
+
+.star5:nth-child(even) {
+	background: #2E7D32;
+}
+
+.star4:nth-child(odd) {
+	background: #004D40;
+}
+
+.star4:nth-child(even) {
+	background: #00695C;
+}
+
+.star3:nth-child(odd) {
+	background: #4A148C;
+}
+
+.star3:nth-child(even) {
+	background: #6A1B9A;
+}
+
+.star2:nth-child(odd) {
+	background: #880E4F;
+}
+
+.star2:nth-child(even) {
+	background: #AD1457;
+}
+
+.star1:nth-child(odd) {
+	background: #B71C1C;
+}
+
+.star1:nth-child(even) {
+	background: #C62828;
+}
+
+.checboxes-bg-5odd {
+	background: #388E3C;
+}
+
+.checboxes-bg-5even {
+	background: #43A047;
+}
+
+.checboxes-bg-4odd {
+	background: #00796B;
+}
+
+.checboxes-bg-4even {
+	background: #00897B;
+}
+
+.checboxes-bg-3odd {
+	background: #7B1FA2;
+}
+
+.checboxes-bg-3even {
+	background: #8E24AA;
+}
+
+.checboxes-bg-2odd {
+	background: #C2185B;
+}
+
+.checboxes-bg-2even {
+	background: #D81B60;
+}
+
+.checboxes-bg-1odd {
+	background: #D32F2F;
+}
+
+.checboxes-bg-1even {
+	background: #E53935;
+}
+
+
+.defaultbar:nth-child(even) {
+	background-color: #5C6BC0;
+}
+.defaultbar:nth-child(odd) {
+	background-color: #3F51B5;
+}
+.previous {
+	text-transform: uppercase;
+	cursor:pointer;
+	color: #000;
+	height: 100%;
+	width: 20%;
+	float: left;
+	text-align: center;
+	background-color: #FFA000;
+}
+.done {
+	text-transform: uppercase;
+	cursor:pointer;
+	color: #000;
+	height: 100%;
+	width: 20%;
+	float: left;
+	text-align: center;
+	background-color: #FFC107;
+}
+.next {
+	text-transform: uppercase;
+	cursor:pointer;
+	color: #000;
+	height: 100%;
+	float: right;
+	text-align: center;
+	background-color: #FF6F00;
+	width: 60%;
+}
+.submit {
+	background-color: #FF6F00;
+}
+.nextsub {
+	color: #000;
+	height: 100%;
+	float: right;
+	text-align: center;
+	background-color: #FF6F00;
+	width: 80%;
+}
+.casl {
+	height: 4%;
+	color: #000;
+	background-color: #FFECB3;
+}
+#submit {
+	color: #FFA726;
+}

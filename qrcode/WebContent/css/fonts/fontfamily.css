@@ -1,0 +1,56 @@
+@font-face {
+	font-family: Lato;
+	src: url('Lato-Regular.ttf');
+}
+@font-face {
+	font-family: Old Standard;
+	src: url('OldStandard-Regular.ttf');
+}
+@font-face {
+	font-family: Open Sans;
+	src: url('OpenSans-Regular.ttf');
+}
+@font-face {
+	font-family: Arimo;
+	src: url('Arimo-Regular.ttf');
+}
+@font-face {
+	font-family: Roboto;
+	src: url('Roboto-Regular.ttf');
+}
+@font-face {
+	font-family: Ubuntu;
+	src: url('Ubuntu-R.ttf');
+}
+@font-face {
+	font-family: PT Serif;
+	src: url('PTF55F.ttf');
+}
+@font-face {
+	font-family: Lato-bold;
+	src: url('Lato-Bold.ttf');
+}
+@font-face {
+	font-family: PT Serif-bold;
+	src: url('PTF75F.ttf');
+}
+@font-face {
+	font-family: Old Standard-bold;
+	src: url('OldStandard-Bold.ttf');
+}
+@font-face {
+	font-family: Open Sans-bold;
+	src: url('OpenSans-Bold.ttf');
+}
+@font-face {
+	font-family: Arimo-bold;
+	src: url('Arimo-Bold.ttf');
+}
+@font-face {
+	font-family: Roboto-bold;
+	src: url('Roboto-Bold.ttf');
+}
+@font-face {
+	font-family: Ubuntu-bold;
+	src: url('Ubuntu-B.ttf');
+}

@@ -1,0 +1,85 @@
+<html>
+<head>
+<title>BEZZ - Online Survey</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link href="css/fonts/fontfamily.css" rel="stylesheet">
+<link href="css/fonts/styles.css" rel="stylesheet">
+<link href="css/Rainbow.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+	<div class="content-frame">
+		<div class="screen_1">
+			<div class="question va-parent font-size screen_1_bar">
+				<div class="vertical-align center" id="overallQuestion1">Please
+					tap on an option to rate your Overall Experience today.</div>
+			</div>
+			<div class="star5  va-parent bar star font-size screen_1_bar" id="5"
+				onclick="Overallrating(this)">
+				<div class="vertical-align textwidth">
+					<span class="rating-value">5</span>Excellent
+				</div>
+				<div class="checkboxes vertical-align"><i class="font-size" ></i></div>
+			</div>
+			<div class="star4  va-parent bar star font-size screen_1_bar" id="4"
+				onclick="Overallrating(this)">
+				<div class="vertical-align textwidth">
+					<span class="rating-value">4</span>Good
+				</div>
+				 <div class="checkboxes vertical-align"><i class="font-size"></i></div>
+			</div>
+			<div class="star3  va-parent bar star font-size screen_1_bar" id="3"
+				onclick="Overallrating(this)">
+				<div class="vertical-align textwidth">
+					<span class="rating-value">3</span>Average
+				</div>
+				 <div class="checkboxes vertical-align"><i class="font-size"></i></div>
+			</div>
+			<div class="star2  va-parent bar star font-size screen_1_bar" id="2"
+				onclick="Overallrating(this)">
+				<div class="vertical-align textwidth">
+					<span class="rating-value">2</span>Fair
+				</div>
+				 <div class="checkboxes vertical-align"><i class="font-size"></i></div>
+			</div>
+			<div class="star1 va-parent bar star font-size screen_1_bar" id="1"
+				onclick="Overallrating(this)">
+				<div class="vertical-align textwidth">
+					<span class="rating-value">1</span>Poor
+				</div>
+				 <div class="checkboxes vertical-align"><i class="font-size"></i></div>
+			</div>
+			<div class="commentpadding screen_1_bar">
+				<div class="comments font-size  va-parent" id="additional_feedback"></div>
+			</div>
+			<div class="Submit bar font-size screen_1_bar va-parent" id="submit">
+				<div class="vertical-align center">SUBMIT</div>
+			</div>
+		</div>
+	</div>
+	<div class="comment-box"
+		style="transform: translate(0%, 200%); -webkit-transform: translate3d(0%, 200%, 0px);">
+		<div class="top-comment">
+			<span class="font-size cancel-comment"> Cancel</span> <span
+				class="font-size done-comment">Done</span>
+		</div>
+		<textarea class="comment-text font-size"
+			placeholder='Please leave your thoughts here...'></textarea>
+	</div>
+	<div class="summary-text"
+		style="transform: translate(0%, -200%); -webkit-transform: translate3d(0%, -200%, 0px);">
+		<img alt="" class="close-summary" src="images/x.png">
+		<div class="summary-overall font-size"></div>
+		<div id="summary-details" style="width: 100%"></div>
+	</div>
+	<div id="thankyouDiv" style="position: fixed; right: 0; left: 0;height: 100vh;background: white; display: none;">
+		<img id="thankyou" style="width: 100%;height: 70%;">
+		<div style="text-align: center;width: 100%;color: #000;padding-top: 14px" class="font-size" id="thankyoumessage"></div>
+	</div>
+</body>
+<script src="js/jquery-1.11.2.js"></script>
+<script src="js/jquery.transit.min.js"></script>
+<script src="js/main.js"></script>
+</html>

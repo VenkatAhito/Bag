@@ -1,0 +1,520 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "iaaf";
+  src:url("iaaf.eot");
+  src:url("iaaf.eot?#iefix") format("embedded-opentype"),
+    url("iaaf.woff") format("woff"),
+    url("iaaf.ttf") format("truetype"),
+    url("iaaf.svg#iaaf") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "iaaf" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "iaaf" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menuknowledge:before {
+  content: "d";
+}
+.icon-lighting:before {
+  content: "e";
+}
+.icon-theme:before {
+  content: "g";
+}
+.icon-utensils:before {
+  content: "h";
+}
+.icon-waittime:before {
+  content: "i";
+}
+.icon-notchecked:before {
+  content: "k";
+}
+.icon-barfacility:before {
+  content: "l";
+}
+.icon-parking:before {
+  content: "m";
+}
+.icon-pestcontrol:before {
+  content: "n";
+}
+.icon-cleanliness:before {
+  content: "o";
+}
+.icon-checked:before {
+  content: "p";
+}
+.icon-courteousness:before {
+  content: "r";
+}
+.icon-decor:before {
+  content: "s";
+}
+.icon-queuemanagement:before {
+  content: "t";
+}
+.icon-reservationmanagement:before {
+  content: "u";
+}
+.icon-food:before {
+  content: "v";
+}
+.icon-freshness:before {
+  content: "w";
+}
+.icon-taste:before {
+  content: "B";
+}
+.icon-temperature:before {
+  content: "C";
+}
+.icon-seatingarrangement:before {
+  content: "x";
+}
+.icon-stars5:before {
+  content: "G";
+}
+.icon-stars4:before {
+  content: "H";
+}
+.icon-stars3:before {
+  content: "I";
+}
+.icon-arrowsq-down:before {
+  content: "J";
+}
+.icon-arrowsq-left:before {
+  content: "K";
+}
+.icon-expand:before {
+  content: "L";
+}
+.icon-favorite:before {
+  content: "M";
+}
+.icon-popin:before {
+  content: "N";
+}
+.icon-popout:before {
+  content: "O";
+}
+.icon-star-line:before {
+  content: "P";
+}
+.icon-statistics:before {
+  content: "Q";
+}
+.icon-surveys:before {
+  content: "R";
+}
+.icon-surveys-line:before {
+  content: "S";
+}
+.icon-qrcode-fill:before {
+  content: "U";
+}
+.icon-home:before {
+  content: "V";
+}
+.icon-help:before {
+  content: "W";
+}
+.icon-arrowsq-right:before {
+  content: "X";
+}
+.icon-arrowsq-up:before {
+  content: "Y";
+}
+.icon-calendar:before {
+  content: "Z";
+}
+.icon-categories:before {
+  content: "0";
+}
+.icon-inbox:before {
+  content: "1";
+}
+.icon-important:before {
+  content: "2";
+}
+.icon-refresh:before {
+  content: "3";
+}
+.icon-timeline:before {
+  content: "4";
+}
+.icon-reports:before {
+  content: "6";
+}
+.icon-reply:before {
+  content: "7";
+}
+.icon-like:before {
+  content: "8";
+}
+.icon-check:before {
+  content: "9";
+}
+.icon-logout:before {
+  content: "!";
+}
+.icon-clock:before {
+  content: "\"";
+}
+.icon-response:before {
+  content: "#";
+}
+.icon-search:before {
+  content: "$";
+}
+.icon-minus:before {
+  content: "%";
+}
+.icon-xlexport:before {
+  content: "&";
+}
+.icon-collapse:before {
+  content: "'";
+}
+.icon-dashboard:before {
+  content: "(";
+}
+.icon-notification:before {
+  content: ")";
+}
+.icon-settings:before {
+  content: "*";
+}
+.icon-settings-line:before {
+  content: "+";
+}
+.icon-notification-line:before {
+  content: ",";
+}
+.icon-dashboard-line:before {
+  content: "-";
+}
+.icon-edit:before {
+  content: ".";
+}
+.icon-password:before {
+  content: "/";
+}
+.icon-snooze:before {
+  content: ":";
+}
+.icon-star:before {
+  content: ";";
+}
+.icon-plus:before {
+  content: "<";
+}
+.icon-exit:before {
+  content: "=";
+}
+.icon-tripadvisor:before {
+  content: ">";
+}
+.icon-twitter:before {
+  content: "?";
+}
+.icon-yelp:before {
+  content: "@";
+}
+.icon-facebook:before {
+  content: "[";
+}
+.icon-filter:before {
+  content: "]";
+}
+.icon-backarrow-light:before {
+  content: "^";
+}
+.icon-forwardarrow-light:before {
+  content: "_";
+}
+.icon-tacircle:before {
+  content: "`";
+}
+.icon-fbcircle:before {
+  content: "{";
+}
+.icon-yelpcircle:before {
+  content: "|";
+}
+.icon-twittercircle:before {
+  content: "}";
+}
+.icon-qrcode:before {
+  content: "T";
+}
+.icon-x-square:before {
+  content: "5";
+}
+.icon-circle-check:before {
+  content: "~";
+}
+.icon-circle-notcheck:before {
+  content: "\\";
+}
+.icon-bezz:before {
+  content: "\e000";
+}
+.icon-elongarrow-downnotfilled:before {
+  content: "\e001";
+}
+.icon-elongarrow-downfilled:before {
+  content: "\e002";
+}
+.icon-genericprofile:before {
+  content: "\e003";
+}
+.icon-sqrounded:before {
+  content: "\e004";
+}
+.icon-information:before {
+  content: "\e005";
+}
+.icon-presentation:before {
+  content: "q";
+}
+.icon-categories-1:before {
+  content: "\e006";
+}
+.icon-calloutright:before {
+  content: "\e008";
+}
+.icon-sad:before {
+  content: "\e009";
+}
+.icon-neutral:before {
+  content: "\e00a";
+}
+.icon-happy:before {
+  content: "\e00b";
+}
+.icon-private:before {
+  content: "\e00c";
+}
+.icon-details:before {
+  content: "\e00d";
+}
+.icon-activity:before {
+  content: "\e00e";
+}
+.icon-calloutleft:before {
+  content: "\e007";
+}
+.icon-foodo:before {
+  content: "\e013";
+}
+.icon-cleanlinesso:before {
+  content: "\e015";
+}
+.icon-hamburger:before {
+  content: "\e010";
+}
+.icon-waittimeo:before {
+  content: "\e014";
+}
+.icon-circlefilled:before {
+  content: "\e016";
+}
+.icon-charts:before {
+  content: "\e017";
+}
+.icon-options:before {
+  content: "\e018";
+}
+.icon-optionso:before {
+  content: "\e019";
+}
+.icon-logout2:before {
+  content: "\e00f";
+}
+.icon-breakfast:before {
+  content: "\e01a";
+}
+.icon-facilities:before {
+  content: "\e01b";
+}
+.icon-frontdesk:before {
+  content: "\e01c";
+}
+.icon-location:before {
+  content: "\e01d";
+}
+.icon-recreation:before {
+  content: "\e01e";
+}
+.icon-in-roomamenities:before {
+  content: "\e020";
+}
+.icon-roomservice:before {
+  content: "\e021";
+}
+.icon-accesstobusinesscenters:before {
+  content: "\e022";
+}
+.icon-accesstoshoppingspots:before {
+  content: "\e023";
+}
+.icon-toiletries:before {
+  content: "\e024";
+}
+.icon-livingspace:before {
+  content: "\e025";
+}
+.icon-travelrecommendations:before {
+  content: "\e026";
+}
+.icon-vendingmachines:before {
+  content: "\e027";
+}
+.icon-nearpublictransportation:before {
+  content: "\e028";
+}
+.icon-airconditioning:before {
+  content: "\e029";
+}
+.icon-pool:before {
+  content: "\e02a";
+}
+.icon-view:before {
+  content: "\e02b";
+}
+.icon-wi-fiandtelephone:before {
+  content: "\e02c";
+}
+.icon-proximitytoattractions:before {
+  content: "\e02d";
+}
+.icon-checkin:before {
+  content: "\e02e";
+}
+.icon-checkout:before {
+  content: "\e02f";
+}
+.icon-coffee:before {
+  content: "\e030";
+}
+.icon-reservation:before {
+  content: "\e031";
+}
+.icon-room:before {
+  content: "\e01f";
+}
+.icon-conferencerooms:before {
+  content: "\e032";
+}
+.icon-fitness-room:before {
+  content: "\e033";
+}
+.icon-roomavailability:before {
+  content: "\e034";
+}
+.icon-spa:before {
+  content: "\e035";
+}
+.icon-furniture:before {
+  content: "\e036";
+}
+.icon-laundry:before {
+  content: "\e037";
+}
+.icon-television:before {
+  content: "\e038";
+}
+.icon-circlenofill:before {
+  content: "\e039";
+}
+.icon-ambience:before {
+  content: "a";
+}
+.icon-friendliness:before {
+  content: "b";
+}
+.icon-furniture-1:before {
+  content: "c";
+}
+.icon-garbagehandling:before {
+  content: "f";
+}
+.icon-groomingstandards:before {
+  content: "j";
+}
+.icon-service:before {
+  content: "z";
+}
+.icon-washroom:before {
+  content: "A";
+}
+.icon-attentiveness:before {
+  content: "D";
+}
+.icon-availability:before {
+  content: "E";
+}
+.icon-ambienceo:before {
+  content: "F";
+}
+.icon-serviceo:before {
+  content: "y";
+}
+.icon-stars1:before {
+  content: "\e011";
+}
+.icon-stars2:before {
+  content: "\e012";
+}
+.icon-frontdesko:before {
+  content: "\e03a";
+}
+.icon-inroomamenitieso:before {
+  content: "\e03b";
+}
+.icon-breakfasto:before {
+  content: "\e03c";
+}
+.icon-roomserviceo:before {
+  content: "\e03d";
+}
+.icon-roomo:before {
+  content: "\e03e";
+}
+.icon-locationo:before {
+  content: "\e03f";
+}
+.icon-facilitieso:before {
+  content: "\e040";
+}
+.icon-recreationo:before {
+  content: "\e041";
+}

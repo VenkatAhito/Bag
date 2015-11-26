@@ -1,0 +1,167 @@
+.rated1 {
+	background: #510850;
+}
+
+.rated2 {
+	background: #360635;
+}
+
+.rated3 {
+	background: #510850;
+}
+
+.rated4 {
+	background: #360635;
+}
+
+.rated5 {
+	background: #510850;
+}
+
+.star5:nth-child(odd) {
+	background: #68449A;
+}
+
+.star5:nth-child(even) {
+	background: #8A5BCD;
+}
+
+.star4:nth-child(odd) {
+	background: #68449A;
+}
+
+.star4:nth-child(even) {
+	background: #8A5BCD;
+}
+
+.star3:nth-child(odd) {
+	background: #68449A;
+}
+
+.star3:nth-child(even) {
+	background: #8A5BCD;
+}
+
+.star2:nth-child(odd) {
+	background: #68449A;
+}
+
+.star2:nth-child(even) {
+	background: #8A5BCD;
+}
+
+.star1:nth-child(odd) {
+	background: #68449A;
+}
+
+.star1:nth-child(even) {
+	background: #8A5BCD;
+}
+
+.checboxes-bg-5odd {
+	background: #7950B3;
+}
+
+.checboxes-bg-5even {
+	background: #9D76D5;
+}
+
+.checboxes-bg-4odd {
+	background: #7950B3;
+}
+
+.checboxes-bg-4even {
+	background: #9D76D5;
+}
+
+.checboxes-bg-3odd {
+	background: #7950B3;
+}
+
+.checboxes-bg-3even {
+	background: #9D76D5;
+}
+
+.checboxes-bg-2odd {
+	background: #7950B3;
+}
+
+.checboxes-bg-2even {
+	background: #9D76D5;
+}
+
+.checboxes-bg-1odd {
+	background: #7950B3;
+}
+
+.checboxes-bg-1even {
+	background: #9D76D5;
+}
+
+
+.defaultbar:nth-child(even) {
+	background-color: #8A5BCD;
+}
+.defaultbar:nth-child(odd) {
+	background-color: #68449A;
+}
+.previous {
+	text-transform: uppercase;
+	cursor:pointer;
+	color: #fff;
+	height: 100%;
+	width: 20%;
+	float: left;
+	text-align: center;
+	background-color: #245100;
+}
+.done {
+	text-transform: uppercase;
+	cursor:pointer;
+	color: #fff;
+	height: 100%;
+	width: 20%;
+	float: left;
+	text-align: center;
+	background-color: #4D772A;
+}
+.next {
+	text-transform: uppercase;
+	cursor:pointer;
+	color: #fff;
+	height: 100%;
+	float: right;
+	text-align: center;
+	background-color: #1A3A00;
+	width: 60%;
+}
+.nextsub {
+	color: #fff;
+	height: 100%;
+	float: right;
+	text-align: center;
+	background-color: #1A3A00;
+	width: 80%;
+}
+.submit {
+	background-color: #1A3A00;
+}
+.question {
+	background: #DCCEF0;
+	height: 18%;
+	color: #000;
+}
+.casl {
+	height: 4%;
+	color: #000;
+	background-color: #DCCEF0;
+}
+.question_2 {
+	background: #DCCEF0;
+	color: #000;
+	height: 9%;
+	text-align: center;
+}
+#submit {
+	color: #426612;
+}
